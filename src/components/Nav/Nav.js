@@ -39,23 +39,23 @@ class Nav extends Component {
         <span class="navbar-toggle" onClick={this.toggleNav}>
           <i class="fas fa-bars" />
         </span>
-        <a href="/portfoliofinal/" className="logo">
+        <a href="/" className="logo">
           <img alt="donut" src="favicon.ico" />
         </a>
         {this.state.showNav ? (
           <ul className="main-nav" id="js-menu">
             <li>
-              <a href="portfoliofinal/about" className="nav-links">
+              <a href="/about" className="nav-links">
                 About
               </a>
             </li>
             <li>
-              <a href="portfoliofinal/portfolio" className="nav-links">
+              <a href="/portfolio" className="nav-links">
                 Portfolio
               </a>
             </li>
             <li>
-              <a href="portfoliofinal/resume" className="nav-links">
+              <a href="/resume" className="nav-links">
                 Resume
               </a>
             </li>
