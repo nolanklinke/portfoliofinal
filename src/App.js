@@ -17,10 +17,12 @@ class App extends Component {
     return (
       <div className="App">
         <Router basename={process.env.PUBLIC_URL}>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/resume" component={Resume} />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/portfolio" component={Portfolio} />
+            <Route exact path="/resume" component={Resume} />
+          </Switch>
         </Router>
       </div>
     );
