@@ -1,0 +1,16 @@
+.portfolio-view {
+  height: 100%;
+  background-color: #c2dfff;
+
+  .card-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+
+    .flip-card {
+      margin-left: 10px;
+    }
+  }
+}

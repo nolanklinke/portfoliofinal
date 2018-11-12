@@ -1,0 +1,40 @@
+//mobile view
+@media screen and (max-width: 768px) {
+  .home-content {
+    text-align: center;
+  }
+}
+
+//desktop view
+#root,
+.App,
+body,
+html {
+  height: 100%;
+}
+
+.home-view {
+  height: 100%;
+  background: url("https://images.pexels.com/photos/574087/pexels-photo-574087.jpeg?cs=srgb&dl=data-hand-keyboard-574087.jpg&fm=jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .home-content {
+    position: absolute;
+    left: 5%;
+    top: 33%;
+    color: white;
+
+    h1 {
+      font-size: 100px;
+    }
+
+    #homeP {
+      font-size: 25px;
+      margin-left: 0.4rem;
+    }
+  }
+}

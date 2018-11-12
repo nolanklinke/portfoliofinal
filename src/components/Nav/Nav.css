@@ -1,0 +1,112 @@
+@media screen and (max-width: 768px) {
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.75);
+    list-style-type: none;
+    font-size: 18px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-bottom: 10px;
+  }
+  .navbar .active {
+    display: block;
+  }
+  .navbar .navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+  }
+  .navbar .logo {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: white;
+  }
+  .navbar .logo img {
+    height: 25px;
+    width: 25px;
+  }
+  .navbar .main-nav {
+    list-style-type: none;
+  }
+  .navbar .main-nav li {
+    text-align: center;
+    margin: 5px, auto;
+  }
+  .navbar .main-nav li .nav-links {
+    display: block;
+    color: white;
+    text-decoration: none;
+  }
+  .navbar .main-nav .logo,
+  .navbar .main-nav li:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+  }
+  .navbar .main-nav .logo .nav-links,
+  .navbar .main-nav li:hover .nav-links {
+    color: black;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    background-color: black;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar .navbar-toggle {
+    display: none;
+  }
+  .navbar .logo {
+    color: white;
+    display: inline-block;
+    font-size: 22px;
+    margin-left: 30px;
+    text-decoration: none;
+  }
+  .navbar .logo img {
+    height: 35px;
+    width: 35px;
+  }
+  .navbar .main-nav {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 30px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .navbar .main-nav li {
+    text-align: center;
+    margin: 15px auto;
+  }
+  .navbar .main-nav li .nav-links {
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+  }
+  .navbar .main-nav li .nav-links:hover {
+    color: #feda6a;
+  }
+}
+/*# sourceMappingURL=Nav.css.map */
