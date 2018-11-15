@@ -55,8 +55,8 @@ class Nav extends Component {
               </a>
             </li>
             <li>
-              <a href="/resume" className="nav-links">
-                Resume
+              <a href="/contact" className="nav-links">
+                Contact
               </a>
             </li>
           </ul>
