@@ -36,8 +36,8 @@ class Nav extends Component {
   render() {
     return (
       <nav className="navbar">
-        <span class="navbar-toggle" onClick={this.toggleNav}>
-          <i class="fas fa-bars" />
+        <span className="navbar-toggle" onClick={this.toggleNav}>
+          <i className="fas fa-bars" />
         </span>
         <a href="/" className="logo">
           <img alt="donut" src="favicon.ico" />

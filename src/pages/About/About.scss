@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) {
   .about-view {
     min-height: 100%;
-    background-color: #c2dfff;
+    background-color: #ebecf0;
 
     .about-content {
       margin-left: 15%;
@@ -19,7 +19,8 @@
   }
   #abouth1 {
     font-size: 100px;
-    color: black;
+    line-height: 125px;
+    color: #f66733;
   }
 
   #aboutP {
@@ -34,7 +35,7 @@
 @media screen and (max-width: 768px) {
   .about-view {
     min-height: 100%;
-    background-color: #c2dfff;
+    background-color: #ebecf0;
 
     .about-content {
       margin-top: 20px;

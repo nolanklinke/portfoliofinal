@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "../../components/Nav";
+
 import Portrait from "../../components/Portrait/Portrait";
 import Aboutme from "../../components/Aboutme/Aboutme";
 import "./About.css";
