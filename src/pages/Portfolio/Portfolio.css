@@ -22,4 +22,10 @@
 .portfolio-view .card-content .flip-card {
   margin-left: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .flip-card {
+    margin-bottom: 10px;
+  }
+}
 /*# sourceMappingURL=Portfolio.css.map */

@@ -68,7 +68,7 @@ input[type="submit"]:hover {
   clear: both;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .col-20,
   .col-80,
   input[type="submit"] {
