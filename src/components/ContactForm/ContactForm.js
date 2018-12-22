@@ -13,7 +13,7 @@ const ContactForm = () => (
     <form action="https://formspree.io/nolan.klinke@gmail.com" method="POST">
       <div className="row">
         <div className="col-20">
-          <label for="name">Name</label>
+          <label htmlFor="name">Name</label>
         </div>
         <div className="col-80">
           <input id="name" type="text" name="name" placeholder="Your Name" />
@@ -21,7 +21,7 @@ const ContactForm = () => (
       </div>
       <div className="row">
         <div className="col-20">
-          <label for="email">Email</label>
+          <label htmlFor="email">Email</label>
         </div>
         <div className="col-80">
           <input
@@ -34,7 +34,7 @@ const ContactForm = () => (
       </div>
       <div className="row">
         <div className="col-20">
-          <label for="message">Message</label>
+          <label htmlFor="message">Message</label>
         </div>
         <div className="col-80">
           <input type="text" name="_gotcha" style={{ display: "none" }} />
