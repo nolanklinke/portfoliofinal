@@ -6,25 +6,25 @@
     "url": "https://stormy-dawn-49353.herokuapp.com/",
     "image": "/Images/dialectic.PNG",
     "shortDescription": "Dialectic aims to achieve reasoned communication between group members about projects before the ultimate truth of those projects is announced to the public.",
-    "technoUsed": "MongoDB, Express.js, Node.js, React.js, Passport.js, Bcrypt.js, Draft.js, SASS "
+    "technoUsed": "MongoDB, Express.js, Node.js, React, Passport.js, Bcrypt.js, Draft.js, SASS "
   },
   {
     "id": 2,
     "key": 2,
+    "name": "AvatarFriends",
+    "url": "https://nolanklinke.github.io/avatarfriends_redux/",
+    "image": "/Images/avatar.PNG",
+    "shortDescription": "AvatarFriends is a simple application that utilizes Redux to manage state. As the user types within the search field, the avatars are simultaneously filtered to display what is being searched.",
+    "technoUsed": "React, Redux, Tachyons"
+  },
+  {
+    "id": 3,
+    "key": 3,
     "name": "Wowscrape",
     "url": "https://wowscrape.herokuapp.com/",
     "image": "/Images/wowScrape.PNG",
     "shortDescription": "Wowscrape allows quests to scrape World of Warcraft related news articles from Wowhead.com. Users can save and append notes to different articles.",
     "technoUsed": "Express, Mongoose, Body-Parser, Morgan, Cheerio, Request"
-  },
-  {
-    "id": 3,
-    "key": 3,
-    "name": "Donut Clicky",
-    "url": "https://nolanklinke.github.io/DonutClicky/",
-    "image": "/Images/donutcapture.PNG",
-    "shortDescription": "Memory based game with the goal of clicking all of the pictures without clicking the same one twice.",
-    "technoUsed": "React, Bootstrap"
   },
   {
     "id": 4,
@@ -34,5 +34,14 @@
     "image": "/Images/giftasticfood.PNG",
     "shortDescription": "Press a button to see gifs of your favorite foods! Don't see your favorite food as a button? Create your own button and try again!",
     "technoUsed": "Javascript, AJAX, GIPHY API, jQuery"
+  },
+  {
+    "id": 5,
+    "key": 5,
+    "name": "Donut Clicky",
+    "url": "https://nolanklinke.github.io/DonutClicky/",
+    "image": "/Images/donutcapture.PNG",
+    "shortDescription": "Memory based game with the goal of clicking all of the pictures without clicking the same one twice.",
+    "technoUsed": "React, Bootstrap"
   }
 ]

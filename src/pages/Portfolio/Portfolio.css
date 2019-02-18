@@ -21,6 +21,7 @@
 
 .portfolio-view .card-content .flip-card {
   margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 768px) {
